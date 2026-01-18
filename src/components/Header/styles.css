@@ -4,8 +4,9 @@ header {
     height: 70px;
     background-color: var(--ct-color-bg-tertiary);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    
 }
 
 header h1 {
