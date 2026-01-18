@@ -1,18 +1,18 @@
 
 header {
     width: 100%;
-    background-color: var(--ct-color-bg-tertiary);
     height: 70px;
+    background-color: var(--ct-color-bg-tertiary);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 header h1 {
-    width: 135px;
-    height: 30px;
     font-size: 20px;
     font-size: bold;
     color: var(--ct-color-font-primary);
     padding: 0 20px;
+    text-align: center;
+    
 }
