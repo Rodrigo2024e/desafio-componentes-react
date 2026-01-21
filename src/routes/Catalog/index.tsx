@@ -1,5 +1,7 @@
 import CardsCar from "../../components/CardsCard";
-import CommentsCar from "../../components/CommentsCard";
+import CommentsCar from "../../components/ComentsCard";
+import FooterCard from "../../components/FooterCard";
+
 import Header from "../../components/Header";
 import './styles.css'
 
@@ -20,16 +22,16 @@ export default function Catalog() {
             <section className="comments-section">
               <h1>O que estão dizendo</h1>
               <div className="catalog-comments-container">
-                <CommentsCar />
-                <CommentsCar />
-                <CommentsCar />
-                <CommentsCar />
-                <CommentsCar />
+                <CommentsCar/>
+                <CommentsCar/>
+                <CommentsCar/>
+                <CommentsCar/>
+                <CommentsCar/>
+                <CommentsCar/>
               </div>
             </section>
-
         </main>
-    
+          <FooterCard />
     </>
   )
 }

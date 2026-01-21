@@ -26,20 +26,20 @@ align-items: center;
 .comments-section {
 width: 100%;
 background-color: var(--ct-color-bg-secondary);
-height: 692px;
 display: flex;
 flex-direction: column;
 align-items: center;
 box-sizing: border-box;
+
 
 }
 
 .catalog-comments-container {
     width: 100%;
     max-width: 960px;
-    height: 74px;
     box-sizing: border-box;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 10px 10px;
+
 }
 
 .comments-section h1 {
@@ -48,3 +48,37 @@ box-sizing: border-box;
     color: var(--ct-color-font-secondary);
     margin: 15px 0 15px 0;
 }
+
+
+@media (min-width: 960px) {
+    header h1 {
+    font-size: 24px;
+    }
+    .cards-section h1 {
+    font-size: 32px;
+    }
+
+  .card-container p {
+    font-size: 20px;
+   }
+  .card-container img {
+    max-width: 391px;
+    }
+    .comments-section h1 {
+    font-size: 32px;
+    }
+
+    .comments-container {
+    height: 74px;
+    }
+
+  .footer-container {
+    flex-direction: row;            
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+  
+
+}
+  

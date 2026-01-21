@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+
 import Catalog from "./routes/Catalog";
 
 
